@@ -1,3 +1,7 @@
 <p>
 	checkout works!
 </p>
+<div class="cart-item" *ngFor="let item of data">
+	<span>{{ item.name }}</span>
+	<span>{{ item.price | currency }}</span>
+</div>
